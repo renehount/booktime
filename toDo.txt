@@ -1,0 +1,6 @@
+# run powershell in admin
+activate myDjangoenv1
+python manage.py runserver
+
+# Test case
+python ./manage.py test (python ./manage.py test -v 2)
